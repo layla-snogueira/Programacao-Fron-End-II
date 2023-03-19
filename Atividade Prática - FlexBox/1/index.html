@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Questão 1</title>
+    <style>
+
+        body{
+            background-color: gainsboro;
+        }
+        #principal{
+            display: flex;
+            height: 100vh;
+            width: 70vw;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+        }
+        #circulo1 ,#circulo2{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+
+        #circulo1{
+            background-color: orange;
+        }
+
+        #circulo2{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <main id="principal">
+        <div id="circulo1"></div>
+        <div id="circulo2"></div>
+    </main>
+</body>
+</html>
